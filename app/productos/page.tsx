@@ -333,7 +333,7 @@ if (params.page) qs.set("page", params.page);
     {page > 1 && (
       <Link
         href={buildHref({ categoria, subcategoria, marca, orden, page: "1" })}
-        className="px-3 py-2 rounded-lg border bg-white text-sm font-semibold text-slate-700"
+        className="px-3 py-2 rounded-lg border border-slate-300 bg-white text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
       >
         Primera
       </Link>
@@ -348,7 +348,7 @@ if (params.page) qs.set("page", params.page);
           orden,
           page: String(page - 1),
         })}
-        className="px-3 py-2 rounded-lg border bg-white text-sm font-semibold text-slate-700"
+        className="px-3 py-2 rounded-lg border border-slate-300 bg-white text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
       >
         Anterior
       </Link>
@@ -367,7 +367,7 @@ if (params.page) qs.set("page", params.page);
           orden,
           page: String(page + 1),
         })}
-        className="px-3 py-2 rounded-lg border bg-white text-sm font-semibold text-slate-700"
+        className="px-3 py-2 rounded-lg border border-slate-300 bg-white text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
       >
         Siguiente
       </Link>
@@ -382,7 +382,7 @@ if (params.page) qs.set("page", params.page);
           orden,
           page: String(totalPaginas),
         })}
-        className="px-3 py-2 rounded-lg border bg-white text-sm font-semibold text-slate-700"
+        className="px-3 py-2 rounded-lg border border-slate-300 bg-white text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
       >
         Última
       </Link>

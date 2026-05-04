@@ -34,7 +34,7 @@ const { data: relacionados } = await supabase
   return (
     <main className="max-w-5xl mx-auto p-6">
       <div className="grid md:grid-cols-2 gap-10">
-        <div className="bg-slate-100 rounded-2xl flex items-center justify-center min-h-[400px]">
+        <div className="bg-white border border-slate-200 rounded-2xl shadow-sm flex items-center justify-center min-h-[400px]">
           <img
             src={producto.imagen}
             alt={producto.nombre}

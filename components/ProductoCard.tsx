@@ -4,7 +4,7 @@ export default function ProductoCard({ p }: { p: any }) {
   return (
     <article className="card overflow-hidden flex flex-col h-full">
       <Link href={`/producto/${p.slug}`} className="block">
-        <div className="aspect-square bg-slate-100 flex items-center justify-center">
+        <div className="aspect-square bg-white flex items-center justify-center">
           {p.imagen ? (
             <img
               src={p.imagen}

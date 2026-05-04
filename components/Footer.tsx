@@ -38,7 +38,7 @@ export default function Footer() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-gradient-to-b from-slate-800 via-slate-800 to-slate-700 text-white">
+      <footer className="bg-gradient-to-b from-slate-600 to-slate-700 text-white">
         <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-10">
 
           {/* LOGO */}
