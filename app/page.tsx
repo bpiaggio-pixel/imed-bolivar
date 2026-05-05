@@ -81,10 +81,9 @@ export default async function Home() {
   </span>
 </h1>
 
-      <p className="mt-5 max-w-xl text-lg text-slate-600">
-        Productos ortopédicos, movilidad, medias de compresión y artículos
-        para el cuidado diario.
-      </p>
+      <p className="mt-6 text-lg text-slate-600 max-w-xl">
+  Somos tu ortopedia en Bolívar, especializada en productos ortopédicos, soluciones de movilidad, plantillas ortopédicas, medias de compresión y artículos para rehabilitación y cuidado diario, con atención personalizada.
+</p>
 
       <div className="mt-8 flex flex-wrap gap-3">
         <a href="https://wa.me/5492314629704?text=Hola%20quiero%20consultar%20por%20productos"
@@ -202,12 +201,18 @@ export default async function Home() {
             <circle cx="12" cy="11" r="2" />
           </svg>
         </div>
-        <div>
-          <p className="font-semibold text-slate-900">Estamos en Bolívar</p>
-          <p className="text-sm text-slate-500 leading-relaxed">
-            Visitanos en nuestro local y recibí la mejor atención.
-          </p>
-        </div>
+<div>
+  <p className="font-semibold text-slate-900">
+    Estamos en Bolívar
+  </p>
+
+  <a
+    href="/ortopedia-bolivar"
+    className="mt-2 inline-block text-sm text-slate-500 underline"
+  >
+    Ver ortopedia en Bolívar
+  </a>
+</div>
       </div>
 
       <div className="p-6 flex gap-4 items-start">
