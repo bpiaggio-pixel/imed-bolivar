@@ -69,7 +69,7 @@ export default async function Home() {
         className="w-full h-56 object-cover rounded-2xl"
       />
     </div>
-    <div className="py-6 md:py-16">
+    <div className="py-2 md:py-16">
       <p className="text-sm font-bold uppercase tracking-wide text-teal-600">
         Ortopedia en Bolívar
       </p>
