@@ -29,14 +29,14 @@ export default function Header() {
             />
           </Link>
 
-          <form action="/productos" className="hidden md:block flex-1 max-w-md">
-            <input
-              type="search"
-              name="q"
-              placeholder="Buscar productos..."
-              className="w-full rounded-full border border-slate-300 px-4 py-2 text-sm outline-none focus:border-teal-600"
-            />
-          </form>
+          <form action="/productos" className="flex-1 mx-2">
+  <input
+    type="search"
+    name="q"
+    placeholder="Buscar productos..."
+    className="w-full rounded-full border border-slate-300 px-3 py-2 text-sm outline-none focus:border-teal-600"
+  />
+</form>
         </div>
 
         <div className="hidden md:flex items-center gap-7 shrink-0">
@@ -71,17 +71,7 @@ export default function Header() {
         </button>
       </div>
 
-{/* BUSCADOR MOBILE */}
-<div className="md:hidden px-4 pb-3">
-  <form action="/productos">
-    <input
-      type="search"
-      name="q"
-      placeholder="Buscar productos..."
-      className="w-full rounded-full border border-slate-300 px-4 py-2 text-sm outline-none focus:border-teal-600"
-    />
-  </form>
-</div>
+
 
       {open && (
         <div className="md:hidden border-t border-slate-200 bg-white px-4 py-4 space-y-4">
