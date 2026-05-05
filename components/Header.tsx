@@ -71,6 +71,18 @@ export default function Header() {
         </button>
       </div>
 
+{/* BUSCADOR MOBILE */}
+<div className="md:hidden px-4 pb-3">
+  <form action="/productos">
+    <input
+      type="search"
+      name="q"
+      placeholder="Buscar productos..."
+      className="w-full rounded-full border border-slate-300 px-4 py-2 text-sm outline-none focus:border-teal-600"
+    />
+  </form>
+</div>
+
       {open && (
         <div className="md:hidden border-t border-slate-200 bg-white px-4 py-4 space-y-4">
           <form action="/productos">
