@@ -31,9 +31,9 @@ export default function ProductoCard({ p }: { p: any }) {
             </p>
           )}
 
-          <p className="mt-2 text-sm text-slate-600 line-clamp-2 hidden md:block">
-            {p.descripcion}
-          </p>
+          <p className="mt-2 text-xs md:text-sm text-slate-600 line-clamp-2">
+  {p.descripcion}
+</p>
         </div>
       </Link>
 
