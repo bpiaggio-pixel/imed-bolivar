@@ -109,7 +109,7 @@ export default async function Home() {
     </div>
   </div>
 
-  {/* ASESORAMIENTO */}
+  {/* ASESORAMIENTO*/}
   <div className="flex gap-3 items-start">
     <div className="w-12 h-12 rounded-full bg-green-200 text-green-700 flex items-center justify-center shrink-0">
       <Icon name="user" />
