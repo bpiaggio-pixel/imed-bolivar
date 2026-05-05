@@ -75,14 +75,7 @@ export default function Header() {
 
       {open && (
         <div className="md:hidden border-t border-slate-200 bg-white px-4 py-4 space-y-4">
-          <form action="/productos">
-            <input
-              type="search"
-              name="q"
-              placeholder="Buscar productos..."
-              className="w-full rounded-full border border-slate-300 px-4 py-2 text-sm outline-none focus:border-teal-600"
-            />
-          </form>
+
 
           <nav className="flex flex-col gap-3 text-sm font-semibold">
             <Link href="/" onClick={() => setOpen(false)}>Inicio</Link>

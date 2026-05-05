@@ -61,6 +61,14 @@ export default async function Home() {
       {/* HERO */}
       <section className="bg-white overflow-hidden">
   <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-[46%_54%] gap-8 items-stretch">
+{/* 📱 HERO IMAGE MOBILE */}
+    <div className="block md:hidden mb-6">
+      <img
+        src="/imed-ortopedia.webp"
+        alt="Ortopedia IMed Bolívar"
+        className="w-full h-56 object-cover rounded-2xl"
+      />
+    </div>
     <div className="py-16">
       <p className="text-sm font-bold uppercase tracking-wide text-teal-600">
         Ortopedia en Bolívar
@@ -131,14 +139,7 @@ export default async function Home() {
 
 </div>
     </div>
-{/* 📱 HERO IMAGE MOBILE */}
-<div className="block md:hidden mt-6">
-  <img
-    src="/imed-ortopedia.webp"
-    alt="Ortopedia IMed Bolívar"
-    className="w-full h-56 object-cover rounded-2xl"
-  />
-</div>
+
     <div
   className="hidden md:block bg-cover bg-center"
   style={{ backgroundImage: "url('/imed-ortopedia.webp')" }}
