@@ -18,6 +18,7 @@ Bath,
 ArrowRight,
 } from "lucide-react";
 
+export const dynamic = "force-dynamic";
 
 const Icon = ({ name }: { name: string }) => {
   const icons: Record<string, React.ReactNode> = {
@@ -46,6 +47,7 @@ const categorias = [
   { nombre: "Equipos Diagnóstico", icono: "pulse" },
   { nombre: "Ayudas para el baño", icono: "bath" },
 ];
+
 
 export default async function Home() {
   const { data: productos } = await supabase
