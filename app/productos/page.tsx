@@ -120,7 +120,18 @@ if (error) {
       .filter(Boolean)
   ),
 ];
-  const marcas = [...new Set(filtros?.map((p) => p.marca).filter(Boolean))];
+  const marcas = [
+  ...new Set(
+    filtros
+      ?.filter(
+        (p) =>
+          (!categoria || p.categoria === categoria) &&
+          (!subcategoria || p.subcategoria === subcategoria)
+      )
+      .map((p) => p.marca)
+      .filter(Boolean)
+  ),
+];
 
   const buildHref = (params: Record<string, string | undefined>) => {
     const qs = new URLSearchParams();
