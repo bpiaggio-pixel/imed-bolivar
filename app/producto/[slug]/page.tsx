@@ -28,6 +28,7 @@ const { data: relacionados } = await supabase
   .select("*")
   .eq("activo", true)
   .eq("categoria", producto.categoria)
+  .eq("subcategoria", producto.subcategoria)
   .neq("id", producto.id)
   .limit(4);
 
